@@ -1,0 +1,21 @@
+.side{
+    background-image: linear-gradient(180deg, rgb(247, 247, 247), rgb(22, 28, 29));
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+h5{
+    cursor: pointer;
+}
+h2, h3, h6{
+    cursor: pointer;
+}
+.logo{
+    color: rgb(255, 255, 255);
+}
+.logo2{
+    color: rgb(155, 209, 209);
+}
+
