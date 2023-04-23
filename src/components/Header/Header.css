@@ -1,28 +1,38 @@
-.head-h1{
+.head-h1 {
     color: rgb(155, 209, 209);
 }
-.btn1{
-    background-image: linear-gradient(rgb(196, 97, 97),rgb(194, 125, 125));
+
+.btn1 {
+    background-image: linear-gradient(rgb(196, 97, 97), rgb(194, 125, 125));
     transition: 0.3s;
 }
-.btn2{
+
+.btn2 {
     background-image: linear-gradient(rgb(155, 209, 209), rgb(84, 117, 117));
     transition: 0.3s;
 }
-.btn1:hover{
+
+.btn1:hover {
     border: 2px solid rgb(196, 97, 97);
-    background-image: linear-gradient(rgba(2, 0, 0, 0),rgba(194, 125, 125, 0));
+    background-image: linear-gradient(rgba(2, 0, 0, 0), rgba(194, 125, 125, 0));
     color: aliceblue;
 }
-.btn2:hover{
+
+.btn2:hover {
     border: 2px solid rgb(155, 209, 209);
-    background-image: linear-gradient(rgba(2, 0, 0, 0),rgba(194, 125, 125, 0));
+    background-image: linear-gradient(rgba(2, 0, 0, 0), rgba(194, 125, 125, 0));
     color: aliceblue;
 }
-.icon{
+
+.icon {
     color: rgb(155, 209, 209);
     margin-left: 9px;
 }
-.icon:hover{
+
+.icon:hover {
     color: white;
+}
+
+.head-img {
+    box-shadow: inset 8px -7px 53px -11px rgba(155, 209, 209, 0.541);
 }

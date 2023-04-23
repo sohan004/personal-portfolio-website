@@ -1,0 +1,11 @@
+.sec2h1{
+    color: rgb(155, 209, 209);
+}
+.cad{
+    border: 2px solid rgb(155, 209, 209) ;
+    box-shadow: 5px -7px 40px -20px rgb(155, 209, 209);
+}
+.cad:hover{
+    border: 2px solid rgb(155, 209, 209) ;
+    box-shadow: inset 5px -7px 40px -20px rgb(155, 209, 209);
+}

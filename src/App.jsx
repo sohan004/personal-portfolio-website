@@ -22,6 +22,7 @@ function App() {
 
           <div className='d-none d-md-flex gap-5'>
             <h6>Home</h6>
+            <h6>Services</h6>
             <h6>Skills</h6>
             <h6>About</h6>
             <h6>Projects</h6>
@@ -40,6 +41,7 @@ function App() {
         <div className='text-center d-flex flex-column gap-4 my-5'>
           <h2 className='mb-5 text-danger' onClick={() => setTr(false)}><VscChromeClose></VscChromeClose></h2>
           <h5>Home</h5>
+          <h5>Services</h5>
           <h5>Skills</h5>
           <h5>About</h5>
           <h5>Projects</h5>
