@@ -6,6 +6,7 @@ import { FaListUl } from 'react-icons/fa';
 import { VscChromeClose } from "react-icons/vsc";
 import logo from '../src/assets/Screenshot (45) copy.svg'
 import Home from './components/Home/Home';
+import { FaJs } from "react-icons/fa";
 
 // https://asif-ullah-sikder.web.app/?fbclid=IwAR3aA3rlJ6HWjwzfiHlJrdbJb0XVI0R89TW0OYOBydwZqS5eBTTXANPBe8g#_
 
