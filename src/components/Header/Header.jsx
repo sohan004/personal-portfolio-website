@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css'
 import { Typewriter } from 'react-simple-typewriter';
 import { FaClipboardList, FaPhone, FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
-import sohanPng from '../../assets/sohanpng2.png'
+import sohanPng from '../../assets/Picsart_23-04-24_14-45-05-939.png'
 import { motion } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
 import { useScroll } from '../usescroll';
@@ -52,14 +52,14 @@ const Header = () => {
                         <button className="btn fw-bolder btn2">Let's Talk <FaPhone /></button>
                     </div>
                     <h5 className='text-light my-3 fw-normal'>Check out My <span>
-                        <FaGithub className='icon fs-2'></FaGithub>
-                        <FaFacebook className='icon fs-2'></FaFacebook>
-                        <FaLinkedin className='icon fs-2'></FaLinkedin>
+                        <a href="https://github.com/sohan004" target='_blank'><FaGithub className='icon fs-2'></FaGithub></a>
+                        <a href="https://www.facebook.com/profile.php?id=100056995762123" target='_blank'><FaFacebook className='icon fs-2'></FaFacebook></a>
+                        <a href="" target='_blank'><FaLinkedin className='icon fs-2'></FaLinkedin></a>
                     </span></h5>
 
                 </motion.div>
                 <motion.div variants={div2} initial="hidden" animate={controls} exit="exit" transition={{duration: 0.6, ease: 'easeInOut'}} className='w-100 w-md-50 text-center'>
-                    <img src={sohanPng} alt="" className="img-fluid w-100 border head-img rounded-circle" />
+                    <img src={sohanPng} alt="" className="img-fluid w-100 " />
                 </motion.div>
             </div>
         </div>

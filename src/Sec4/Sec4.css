@@ -1,0 +1,14 @@
+.sec4-tr{
+    color: rgb(155, 209, 209);
+}
+.sec4-div{
+    margin-bottom: 110px;
+}
+.bt1{
+    border: 2px solid rgb(155, 209, 209);
+    color: rgb(155, 209, 209);
+}
+.bt1:hover{
+    background-color: rgb(155, 209, 209);
+    color: rgb(0, 0, 0);
+}

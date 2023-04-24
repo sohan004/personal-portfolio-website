@@ -7,6 +7,7 @@ import { VscChromeClose } from "react-icons/vsc";
 import logo from '../src/assets/Screenshot (45) copy.svg'
 import Home from './components/Home/Home';
 import { FaJs } from "react-icons/fa";
+import { Outlet } from 'react-router-dom';
 
 // https://asif-ullah-sikder.web.app/?fbclid=IwAR3aA3rlJ6HWjwzfiHlJrdbJb0XVI0R89TW0OYOBydwZqS5eBTTXANPBe8g#_
 
@@ -38,7 +39,7 @@ function App() {
 
 
 
-      <div className={tr ? 'side top-0' : 'side'}>
+      <div className={tr ? 'side top-0 z-1' : 'side z-1'}>
         <div className='text-center d-flex flex-column gap-4 my-5'>
           <h2 className='mb-5 text-danger' onClick={() => setTr(false)}><VscChromeClose></VscChromeClose></h2>
           <h5>Home</h5>
@@ -49,7 +50,7 @@ function App() {
           <h5>Contact</h5>
         </div>
       </div>
-      <Home></Home>
+      <Outlet></Outlet>
     </>
   )
 }

@@ -8,3 +8,13 @@
 .mn{
     margin-bottom: 110px;
 }
+.position-absolute{
+    cursor: pointer;
+    transition: .3s;
+}
+.position-absolute:hover{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+
+}

@@ -69,9 +69,9 @@ const Sec3 = () => {
         <div className='container'>
             <h3 className="text-center text-light ">My Skills</h3>
             <h5 className="text-center sec2h1 my-3 mb-5">Skills are the expertise or talent needed in order to do a job or task.</h5>
-            <motion.div ref={element} variants={containerVariants} initial="hidden" animate={controls} className='position-relative mn text-center mx-auto '>
+            <motion.div ref={element} variants={containerVariants}  initial="hidden" animate={controls} className='position-relative mn text-center mx-auto '>
                 <img src={skillBg} alt="" className="img-fluid  position-relative " />
-                <motion.div variants={html} className='position-absolute '><FaHtml5 className=' sk '></FaHtml5><small className='fc d-block'>HTML</small></motion.div>
+                <motion.div variants={html}  className='position-absolute '><FaHtml5 className=' sk '></FaHtml5><small className='fc d-block'>HTML</small></motion.div>
                 <motion.div variants={css} className='position-absolute '><FaCss3Alt className=' sk '></FaCss3Alt><small className='fc d-block'>CSS</small></motion.div>
                 <motion.div variants={js} className='position-absolute '><FaJs className=' sk '></FaJs><small className='fc d-block'>Javascript</small></motion.div>
                 <motion.div variants={tail} className='position-absolute '><SiTailwindcss className=' sk '></SiTailwindcss><small className='fc d-block'>Tailwind</small></motion.div>
