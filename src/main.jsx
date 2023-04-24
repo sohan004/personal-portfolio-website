@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Link, RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './components/Home/Home'
+import Sec3 from './components/Sec3/Sec3'
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,15 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
-      }
+      },
+      {
+        path: '/skills',
+        element:<Sec3></Sec3>
+      },
+      {
+        path: '*',
+        element:<Home></Home>
+      },
     ]
   }
 ])

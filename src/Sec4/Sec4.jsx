@@ -26,9 +26,9 @@ const Sec4 = () => {
 
     return (
         <div className='container'>
-            <h3 id='abtMe' className="text-center text-light ">About me ?</h3>
+            <h3 id='about' className="text-center text-light ">About me ?</h3>
             <div className='d-flex flex-column flex-md-row align-items-center sec4-div'>
-                <motion.div variants={im} initial="hidden" animate={controls} exit="exit" transition={{ duration: 1.4 }} className='w-100 w-md-50'>
+                <motion.div variants={im} initial="hidden" animate={controls} exit="exit" transition={{ duration: 1.7 }} className='w-100 w-md-50'>
                     <img src={img2} alt="" className="img-fluid" />
                 </motion.div>
                 <motion.div variants={rotat} initial="hidden" animate={controls} exit="exit" className='w-100 w-md-50 text-center text-md-start'>
@@ -71,7 +71,7 @@ const Sec4 = () => {
                             </div>
                         </div>
                         <div className='my-3'>
-                            <a href="#" target='_blank'><button className="btn  bt1 me-4">Hire Me <FaArrowRight/></button></a>
+                            <a href="#" target=''><button className="btn  bt1 me-4">Hire Me <FaArrowRight/></button></a>
                             <a href="https://github.com/sohan004" target='_blank'><button className="btn bt1">Github <FaArrowRight/></button></a>
                         </div>
                     </div>

@@ -1,0 +1,13 @@
+.card-img-top{
+    transition: 0.6s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    transform: scale(1.1) rotate(10deg);
+}
+.cd-main{
+    background-color:  rgba(155, 209, 209, 0.082);
+}
+.sec-5{
+    margin-bottom: 110px;
+}

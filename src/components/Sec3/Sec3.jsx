@@ -67,7 +67,7 @@ const Sec3 = () => {
     };
     return (
         <div className='container'>
-            <h3 className="text-center text-light ">My Skills</h3>
+            <h3 id='Skills' className="text-center text-light ">My Skills</h3>
             <h5 className="text-center sec2h1 my-3 mb-5">Skills are the expertise or talent needed in order to do a job or task.</h5>
             <motion.div ref={element} variants={containerVariants}  initial="hidden" animate={controls} className='position-relative mn text-center mx-auto '>
                 <img src={skillBg} alt="" className="img-fluid  position-relative " />

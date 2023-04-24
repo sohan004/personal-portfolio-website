@@ -29,7 +29,7 @@ const Sec2 = () => {
 
     return (
         <div className='container'>
-            <h3 className="text-center text-light">My Services</h3>
+            <h3 id='service' className="text-center text-light">My Services</h3>
             <h1 className="text-center sec2h1 my-3 mb-5">What I Do</h1>
             <div className="row g-5">
                 <div className="col-12 col-md-6 col-lg-4">

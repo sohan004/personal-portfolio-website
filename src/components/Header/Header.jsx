@@ -49,12 +49,12 @@ const Header = () => {
                     <p ref={element} className='text-light my-4'> I build dynamic and scalable web applications using MongoDB, Express, React, and Node.js. With strong problem-solving skills and attention to detail, I am committed to delivering reliable, performant solutions that exceed expectations.</p>
                     <div className='d-flex gap-3 my-4 justify-content-center justify-content-md-start'>
                         <button className="btn fw-bolder btn1 "><FaClipboardList /> Resume</button>
-                        <button className="btn fw-bolder btn2">Let's Talk <FaPhone /></button>
+                        <a href="#contact"><button className="btn fw-bolder btn2">Let's Talk <FaPhone /></button></a>
                     </div>
                     <h5 className='text-light my-3 fw-normal'>Check out My <span>
                         <a href="https://github.com/sohan004" target='_blank'><FaGithub className='icon fs-2'></FaGithub></a>
                         <a href="https://www.facebook.com/profile.php?id=100056995762123" target='_blank'><FaFacebook className='icon fs-2'></FaFacebook></a>
-                        <a href="" target='_blank'><FaLinkedin className='icon fs-2'></FaLinkedin></a>
+                        <a href="" target=''><FaLinkedin className='icon fs-2'></FaLinkedin></a>
                     </span></h5>
 
                 </motion.div>
